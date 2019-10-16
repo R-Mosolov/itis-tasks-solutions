@@ -24,26 +24,4 @@ class Student {
     }
 }
 
-const Roman = new Student(
-    'Roman',
-    'master',
-    '1',
-    'frontend',
-    'JavaScript'
-);
-
-const runTest = () => {
-    console.log(Roman.name);
-    console.log(Roman.level);
-    console.log(Roman.course);
-    console.log(Roman.major);
-    console.log(Roman.language);
-
-    Roman.sayHello();
-    Roman.sayThanks();
-    Roman.goHome();
-    Roman.currentCondition();
-    Roman.currentIdea();
-};
-
-runTest();
+export { Student };
