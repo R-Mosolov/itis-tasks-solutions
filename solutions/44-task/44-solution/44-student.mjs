@@ -1,10 +1,16 @@
 class Student {
-    constructor(name, level, course, major, language) {
-        this.name = name;
-        this.level = level;
-        this.course = course;
-        this.major = major;
-        this.language = language;
+    constructor(_name, _level, _course, _major, _language) {
+        this.name = _name;
+        this.level = _level;
+        this.course = _course;
+        this.major = _major;
+        this.language = _language;
+    }
+
+    set _level(value) {
+        if(value < 0) throw Error('Вы ввели отрицательное число.');
+
+        this._level = value;
     }
 
     sayHello() {
