@@ -1,12 +1,12 @@
 import { Tv } from './tv.mjs';
 
 const runTest = () => {
-    let tv = new Tv('телевизор', '1', '20', '35000');
+    let object = new Tv('телевизор', '1', '20', '35000');
 
-    console.log(tv.create());
-    console.log(tv.move());
-    console.log(tv.brake());
-    console.log(tv.buy());
+    console.log(object.create());
+    console.log(object.move());
+    console.log(object.brake());
+    console.log(object.buy());
 };
 
 export { runTest };

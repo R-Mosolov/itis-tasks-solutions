@@ -1,12 +1,12 @@
 import { Computer } from './computer.mjs';
 
 const runTest = () => {
-    let computer = new Computer('компьютер', '0.5', '3', '220');
+    let object = new Computer('компьютер', '0.5', '3', '220');
 
-    console.log(computer.create());
-    console.log(computer.move());
-    console.log(computer.brake());
-    console.log(computer.active());
+    console.log(object.create());
+    console.log(object.move());
+    console.log(object.brake());
+    console.log(object.active());
 };
 
 export { runTest };
