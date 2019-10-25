@@ -7,7 +7,7 @@ class Car extends Technology {
     }
 
     open() {
-        console.log(`Открыт ${this.name} размером ${this.size} м,` +
+        console.log(`Открыт ${this.name} размером ${this.size} м, ` +
             `весом ${this.weight} кг и со скоростью ${this.speed} км/ч.`);
     }
 }

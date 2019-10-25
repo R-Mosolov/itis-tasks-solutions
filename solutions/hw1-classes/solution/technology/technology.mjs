@@ -6,13 +6,13 @@ class Technology {
     }
 
     create() {
-        console.log(`Создан ${this.name} размером ${this.size} м и весом ${this.weight} кг.`);
+        console.log(`Создан(а) ${this.name} размером ${this.size} м и весом ${this.weight} кг.`);
     }
     move() {
-        console.log(`Перемещен ${this.name} размером ${this.size} м и весом ${this.weight} кг.`);
+        console.log(`Перемещен(а) ${this.name} размером ${this.size} м и весом ${this.weight} кг.`);
     }
     brake() {
-        console.log(`Сломан ${this.name} размером ${this.size} м и весом ${this.weight} кг.`);
+        console.log(`Сломан(а) ${this.name} размером ${this.size} м и весом ${this.weight} кг.`);
     }
 }
 
